@@ -40,7 +40,9 @@ header div.acceuil1 nav ul li a:hover{
 }
 
 /* contenue */
-
+div#body{ 
+    background-color: rgba(0, 0, 0, 75%);
+}
 div#body h3#t1{
     background-color: rgba(49, 49, 49, 75%);
     color: aliceblue;
@@ -49,7 +51,7 @@ div#body h3#t1{
 }
 
 div#projet1 h4{
-    background-color: rgba(0, 0, 0, 75%);
+
     color: rgb(216, 216, 216);
     padding: 1%;
     font-size: 110%;
@@ -58,7 +60,7 @@ div#projet1 h4{
 }
 
 div#projet1 p.contenue{
-    background-color: rgba(0, 0, 0, 75%);
+
     color: rgb(216, 216, 216);
     padding: 1%;
     padding-left: 2%;
@@ -66,28 +68,27 @@ div#projet1 p.contenue{
 div#projet1 div#com{
     background-color: #474747;
     padding: 1%;
-    color: #000000;
-    border: solid #000000;
+    color: black;
+    border: solid black;
     border-radius: 5px;
 }
 div#projet1 p a{
     color: antiquewhite;
 }
 div#projet1 ol{
-    background-color: rgba(0, 0, 0, 75%);
     color: rgb(216, 216, 216);
     padding: 1%;
     padding-left: 4%;
 }
-div.download{
-    background-color: rgba(102, 101, 101, 0.75);
+div#download{
+    background-color: rgba(102, 101, 101, 75%);
     padding: 1%;
     font-size: 110%;
     padding-left: 2%;
     border: solid black;
     border-radius: 5px;
 }
-div.download a{
+div#download a{
     color: rgb(0, 0, 0);
 }
 
