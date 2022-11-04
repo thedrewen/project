@@ -1,0 +1,101 @@
+body{
+    background-image: url(img/fond.jpg);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+
+header div.acceuil1{
+    background-color: #0D0D0D;
+    color: aliceblue;
+    padding: 1%;
+    padding-left: 2%;
+    width: 100%;
+    border-bottom: solid #242526;
+}
+
+
+header div.acceuil1 nav ul{
+    list-style-type: none;
+    padding: 1%;
+}
+header div.acceuil1 nav ul li{
+    display: inline-block;
+    padding-left: 1%;
+}
+header div.acceuil1 nav ul li a{
+    text-decoration: none;
+    color: #979797;
+    transition: 1s;
+}
+header div.acceuil1 nav ul li a:hover{
+    text-decoration: none;
+    color: #3D3E40;
+    transition: 1s;
+}
+
+/* contenue */
+
+div#body h3#t1{
+    background-color: rgba(49, 49, 49, 75%);
+    color: aliceblue;
+    padding: 1%;
+    font-size: 130%;
+}
+
+div#projet1 h4{
+    background-color: rgba(0, 0, 0, 75%);
+    color: rgb(216, 216, 216);
+    padding: 1%;
+    font-size: 110%;
+    padding-left: 2%;
+    text-decoration: underline;
+}
+
+div#projet1 p.contenue{
+    background-color: rgba(0, 0, 0, 75%);
+    color: rgb(216, 216, 216);
+    padding: 1%;
+    padding-left: 2%;
+}
+div#projet1 div#com{
+    background-color: #474747;
+    padding: 1%;
+    color: #000000;
+    border: solid #000000;
+    border-radius: 5px;
+}
+div#projet1 p a{
+    color: antiquewhite;
+}
+div#projet1 ol{
+    background-color: rgba(0, 0, 0, 75%);
+    color: rgb(216, 216, 216);
+    padding: 1%;
+    padding-left: 4%;
+}
+div.download{
+    background-color: rgba(102, 101, 101, 0.75);
+    padding: 1%;
+    font-size: 110%;
+    padding-left: 2%;
+    border: solid black;
+    border-radius: 5px;
+}
+div.download a{
+    color: rgb(0, 0, 0);
+}
+
+
+/* Footer */
+footer p{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 2%;
+    border-top: #000000;
+}

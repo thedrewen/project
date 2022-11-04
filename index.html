@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Python's Project
+        </title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="img/logo.png">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <!-- Header -->
+        <header>
+            <div class="acceuil1">
+                <h1>
+                    Python's Project
+                </h1>
+                <h2>
+                    Nos et vos project en pythons présent ici !
+                </h2>
+
+                <!-- Navigation -->
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Acceuil
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Contacts
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Annonces
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Evénements
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <br>
+
+        <!-- Body -->
+        <div id="body">
+            <h3 id="t1">
+                Notre premier projet : Multgame
+            </h3>
+            <div id="projet1">
+                <h4>
+                    Multgame c'est quoi ?
+                </h4>
+                <p class="contenue">
+                    Multgame est notre tout premier projet !<br>
+                    Il est un "multi-jeux" donc un programme pouvant acceuillir plusieurs jeux à l'intérieur.<br>
+                    Il se joue entre 1 à 4 joueurs sur le même appareil, un système de sauvegarde permet d'enrigstrer vos parties à l'infinie.<br>
+                    Et tout cela se joue via le terminal !<br> <br>
+                    Pour le moments, il n'y a que 2 jeux dessus, donc si vous avez des propositions, ou même des codes <br>
+                    à nous partager, vous ètes les bienvenue.<br> <br>
+                    Plus d'informations sur notre <a href="https://dsc.gg/pythons-project">Discord.</a>
+                </p>
+                <h4>
+                    Comments y jouer sur mobile ?
+                </h4>
+                <p class="contenue">
+                    Pour pouvoir jouer à multgame sur mobile il y a 2 moyens :
+                </p>
+                <ol>
+                    <li>
+                        Installer un <strong>Terminal</strong>.
+                    </li>
+                    <li>
+                        Installer une application permetant de coder et de lire le python.
+                    </li>
+                </ol>
+                <p class="contenue">
+                    <strong>Options 1 :</strong> Pour installer un terminal sur votre gsm, vous allez devoir installer <strong>Termux</strong>.<br>
+                    Termux est un terminal issue de linux ubuntu, dessus vous pourrez éxécuter tout les commandes linux !<br>
+                    Attention application payante sur IOS.<br>
+                    <br>
+                    Une fois l'application installer éxécuter la commande :
+                </p>
+                <div id="com">
+                    termux-setup-storage
+                </div>
+                <p class="contenue">
+                    Pattienter quelque secondes et l'application demandera l'accès à vos fichier.<br>
+                    Accepter et poursuivez avec cette commande :
+                </p>
+                <div id="com">
+                    pkg install python3
+                </div>
+                <p class="contenue">
+                    Attendez de quelque secondes à quelque minutes une bar de chargements va apparaître et attender<br>
+                    que le signe <em>$</em> soit réapparue avant de poursuivre.<br>
+                    <br>
+                    Pour vérifier que l'installation soit réussi éxécuter ;
+                </p>
+                <div id="com">
+                    python3 --version
+                </div>
+                <p class="contenue">
+                    Cela devrait afficher '<em>Python "<strong>Version</strong></em>"'.<br>
+                    Si cela n'a pas fonctionner vous devrez patienter de quelque heure à quelque jour cela dépendra <br>
+                    de la longueur de la maintenance.<br>
+                    <br>
+                    Ensuite installer multgame et créer dans vos fichier un dossier <em>multgame</em><br>
+                    déplacer-y le fichier multgame et copier le chemin d'accés.<br>
+                    Retourner dans Termux et executer la commande suivante ;
+                </p>
+                <div id="com">
+                    alias play="python3 <em>Chemin du fichier multgame.py</em>"
+                </div>
+                <p class="contenue">
+                    Et voila cette dernière commande sera à refaire chaque fois que vous réouvrez l'application pour jouer à notre jeux !<br>
+                    <br>
+                    Désormais vous pouvez jouer grâce à cette commande ;
+                </p>
+                <div id="com">
+                    play
+                </div>
+                <h4>
+                    Télécharger 
+                </h4>
+                <p class="contenue">
+                    Fichier de Téléchargements ici :
+                </p>
+                <div class="download">
+                    <a href="fichier/multgame2.5.py">multgame.py</a> Version 2.5
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!-- Footer -->
+        <footer>
+            <p>
+                Par TheDrewen<br>
+                Copyright &copy; TheDrewen 2022-2023
+            </p>
+        </footer>
+    </body>
+</html>
