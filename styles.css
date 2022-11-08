@@ -91,6 +91,10 @@ div#download{
 div#download a{
     color: rgb(0, 0, 0);
 }
+div#projet1 ol li a{
+    color: aliceblue;
+    
+}
 
 
 /* Footer */
